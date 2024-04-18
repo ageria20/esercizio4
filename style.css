@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body {
+    display: flex;
+    margin: 0;
+    height: 100vh;
+    font-family: "Roboto", sans-serif;
+}
+
+#sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /** perchè align items li centra nell'asse orizzontale **/ 
+}
+
+#main {
+    width: 100%;
+}
+
+#content {
+    height: 100%;
+}
+
+.sidebar-icon {
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar-icon p {
+    margin: 0;
+}
+
+.sidebar-icon ion-icon {
+    font-size: 1.5em;
+}
+
+#topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8vh;
+}
+
+#ytlogo {
+    height: 50%;
+}
+
+#input-area {
+    width: 600px;
+    display: flex;
+    height: 50%;
+}
+
+#topbar-icons {
+    display: flex;
+}
+
+.topbar-icon ion-icon {
+    font-size: 1.5em;
+    padding: 0 0.3em;
+}
+
+#mic-icon {
+    margin: 0 0.5em;
+}
+
+#mic-icon ion-icon {
+    font-size: 1.7em;
+}
+
+#search-btn {
+    padding: 0 0.6em;
+    font-size: 1.3em;
+    display: flex;
+    align-items: center;
+}
+
+#content-f {
+    display: flex;
+    width: 100%;
+}
+
+#content-f img {
+    width: 100%;
+}
+
+.row-f {
+    margin: 3em 1em;
+}
+
+ .logo-epi{
+    width: 50px;
+    height: 50px;
+    display: flex;
+ }
+
+ .description p {
+    margin: 0 0.8em;
+    display: flex;
+    align-items: center;
+ }
+
+.thumb-description {
+    display: flex;
+    align-items: center;
+    margin: 0.8em 0;
+}
+
+#content-s {
+    display: flex;
+    width: 100%;
+}
+
+#content-s img {
+    width: 100%;
+}
+
+
